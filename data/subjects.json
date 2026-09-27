@@ -1,0 +1,378 @@
+{
+  "subjects": {
+    "Python Programming": {
+      "beginner": [
+        {
+          "id": "py_b1",
+          "title": "Introduction to Python",
+          "type": "video",
+          "duration_mins": 30,
+          "url": "https://example.com/py-intro",
+          "description": "Learn Python basics: variables, data types, and simple I/O.",
+          "tags": ["syntax", "variables", "basics"]
+        },
+        {
+          "id": "py_b2",
+          "title": "Control Flow: if/else & loops",
+          "type": "reading",
+          "duration_mins": 25,
+          "url": "https://example.com/py-control",
+          "description": "Master conditional statements and iteration in Python.",
+          "tags": ["conditionals", "loops", "logic"]
+        },
+        {
+          "id": "py_b3",
+          "title": "Functions & Scope",
+          "type": "interactive",
+          "duration_mins": 40,
+          "url": "https://example.com/py-functions",
+          "description": "Define and call functions; understand local vs global scope.",
+          "tags": ["functions", "scope", "reusability"]
+        },
+        {
+          "id": "py_b4",
+          "title": "Python Quiz – Basics",
+          "type": "quiz",
+          "duration_mins": 15,
+          "url": "https://example.com/py-quiz-basics",
+          "description": "Test your understanding of Python fundamentals.",
+          "tags": ["assessment", "basics"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": "py_i1",
+          "title": "Object-Oriented Programming in Python",
+          "type": "video",
+          "duration_mins": 55,
+          "url": "https://example.com/py-oop",
+          "description": "Classes, objects, inheritance, and polymorphism.",
+          "tags": ["OOP", "classes", "inheritance"]
+        },
+        {
+          "id": "py_i2",
+          "title": "File Handling & Exceptions",
+          "type": "reading",
+          "duration_mins": 35,
+          "url": "https://example.com/py-files",
+          "description": "Read/write files and handle errors gracefully.",
+          "tags": ["file I/O", "exceptions", "error handling"]
+        },
+        {
+          "id": "py_i3",
+          "title": "Data Structures Deep Dive",
+          "type": "interactive",
+          "duration_mins": 60,
+          "url": "https://example.com/py-ds",
+          "description": "Lists, dicts, sets, and tuples with practical exercises.",
+          "tags": ["data structures", "lists", "dicts"]
+        },
+        {
+          "id": "py_i4",
+          "title": "Python Intermediate Project",
+          "type": "project",
+          "duration_mins": 90,
+          "url": "https://example.com/py-project-mid",
+          "description": "Build a mini text-based adventure game.",
+          "tags": ["project", "OOP", "logic"]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "py_a1",
+          "title": "Decorators & Generators",
+          "type": "reading",
+          "duration_mins": 45,
+          "url": "https://example.com/py-decorators",
+          "description": "Master Python's powerful metaprogramming features.",
+          "tags": ["decorators", "generators", "advanced"]
+        },
+        {
+          "id": "py_a2",
+          "title": "Async Programming with asyncio",
+          "type": "video",
+          "duration_mins": 60,
+          "url": "https://example.com/py-async",
+          "description": "Write non-blocking code with async/await patterns.",
+          "tags": ["async", "concurrency", "asyncio"]
+        },
+        {
+          "id": "py_a3",
+          "title": "Advanced Python Capstone",
+          "type": "project",
+          "duration_mins": 120,
+          "url": "https://example.com/py-capstone",
+          "description": "Build a full REST API with FastAPI.",
+          "tags": ["project", "API", "FastAPI"]
+        }
+      ]
+    },
+    "Data Science": {
+      "beginner": [
+        {
+          "id": "ds_b1",
+          "title": "What is Data Science?",
+          "type": "video",
+          "duration_mins": 20,
+          "url": "https://example.com/ds-intro",
+          "description": "Overview of the data science landscape and career paths.",
+          "tags": ["overview", "careers", "basics"]
+        },
+        {
+          "id": "ds_b2",
+          "title": "NumPy & Pandas Essentials",
+          "type": "interactive",
+          "duration_mins": 50,
+          "url": "https://example.com/ds-numpy-pandas",
+          "description": "Arrays, DataFrames, and basic data manipulation.",
+          "tags": ["numpy", "pandas", "data manipulation"]
+        },
+        {
+          "id": "ds_b3",
+          "title": "Data Visualization with Matplotlib",
+          "type": "reading",
+          "duration_mins": 35,
+          "url": "https://example.com/ds-matplotlib",
+          "description": "Create insightful charts and plots.",
+          "tags": ["visualization", "matplotlib", "charts"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": "ds_i1",
+          "title": "Exploratory Data Analysis (EDA)",
+          "type": "interactive",
+          "duration_mins": 70,
+          "url": "https://example.com/ds-eda",
+          "description": "Techniques to explore and summarize datasets.",
+          "tags": ["EDA", "statistics", "insights"]
+        },
+        {
+          "id": "ds_i2",
+          "title": "Machine Learning Fundamentals",
+          "type": "video",
+          "duration_mins": 65,
+          "url": "https://example.com/ds-ml-basics",
+          "description": "Supervised vs unsupervised learning, model training.",
+          "tags": ["ML", "supervised", "unsupervised"]
+        },
+        {
+          "id": "ds_i3",
+          "title": "Feature Engineering Workshop",
+          "type": "project",
+          "duration_mins": 80,
+          "url": "https://example.com/ds-feature-eng",
+          "description": "Hands-on feature selection and transformation.",
+          "tags": ["feature engineering", "preprocessing", "ML"]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "ds_a1",
+          "title": "Deep Learning with TensorFlow",
+          "type": "video",
+          "duration_mins": 90,
+          "url": "https://example.com/ds-dl",
+          "description": "Neural networks, CNNs, and RNNs from scratch.",
+          "tags": ["deep learning", "neural networks", "TensorFlow"]
+        },
+        {
+          "id": "ds_a2",
+          "title": "NLP & Text Analytics",
+          "type": "interactive",
+          "duration_mins": 75,
+          "url": "https://example.com/ds-nlp",
+          "description": "Process and analyze text data with NLTK and spaCy.",
+          "tags": ["NLP", "text", "spaCy"]
+        },
+        {
+          "id": "ds_a3",
+          "title": "Data Science Capstone Project",
+          "type": "project",
+          "duration_mins": 150,
+          "url": "https://example.com/ds-capstone",
+          "description": "End-to-end ML pipeline on a real-world dataset.",
+          "tags": ["project", "pipeline", "deployment"]
+        }
+      ]
+    },
+    "Web Development": {
+      "beginner": [
+        {
+          "id": "web_b1",
+          "title": "HTML & CSS Foundations",
+          "type": "interactive",
+          "duration_mins": 45,
+          "url": "https://example.com/web-html-css",
+          "description": "Build your first webpage with semantic HTML and CSS.",
+          "tags": ["HTML", "CSS", "basics"]
+        },
+        {
+          "id": "web_b2",
+          "title": "JavaScript Essentials",
+          "type": "video",
+          "duration_mins": 55,
+          "url": "https://example.com/web-js",
+          "description": "Variables, functions, DOM manipulation in JavaScript.",
+          "tags": ["JavaScript", "DOM", "basics"]
+        },
+        {
+          "id": "web_b3",
+          "title": "Responsive Design with Flexbox & Grid",
+          "type": "reading",
+          "duration_mins": 30,
+          "url": "https://example.com/web-responsive",
+          "description": "Make your layouts adapt to any screen size.",
+          "tags": ["responsive", "flexbox", "grid"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": "web_i1",
+          "title": "React.js Fundamentals",
+          "type": "video",
+          "duration_mins": 75,
+          "url": "https://example.com/web-react",
+          "description": "Components, props, state, and hooks in React.",
+          "tags": ["React", "components", "hooks"]
+        },
+        {
+          "id": "web_i2",
+          "title": "REST APIs & Fetch",
+          "type": "interactive",
+          "duration_mins": 50,
+          "url": "https://example.com/web-api",
+          "description": "Consume and build REST APIs; handle async data.",
+          "tags": ["API", "REST", "async"]
+        },
+        {
+          "id": "web_i3",
+          "title": "Database Integration with SQL",
+          "type": "reading",
+          "duration_mins": 40,
+          "url": "https://example.com/web-db",
+          "description": "Connect your web app to a relational database.",
+          "tags": ["SQL", "database", "backend"]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "web_a1",
+          "title": "Full-Stack Next.js Application",
+          "type": "project",
+          "duration_mins": 120,
+          "url": "https://example.com/web-nextjs",
+          "description": "Build and deploy a full-stack app with Next.js.",
+          "tags": ["Next.js", "full-stack", "deployment"]
+        },
+        {
+          "id": "web_a2",
+          "title": "Authentication & Security Best Practices",
+          "type": "reading",
+          "duration_mins": 45,
+          "url": "https://example.com/web-security",
+          "description": "JWT, OAuth 2.0, CSRF protection, and HTTPS.",
+          "tags": ["security", "auth", "JWT"]
+        },
+        {
+          "id": "web_a3",
+          "title": "Web Performance Optimization",
+          "type": "video",
+          "duration_mins": 60,
+          "url": "https://example.com/web-perf",
+          "description": "Lighthouse, lazy loading, code splitting, and CDN.",
+          "tags": ["performance", "optimization", "CDN"]
+        }
+      ]
+    },
+    "Algorithms & DSA": {
+      "beginner": [
+        {
+          "id": "dsa_b1",
+          "title": "Big-O Notation & Complexity",
+          "type": "video",
+          "duration_mins": 30,
+          "url": "https://example.com/dsa-bigo",
+          "description": "Understand time and space complexity analysis.",
+          "tags": ["complexity", "Big-O", "analysis"]
+        },
+        {
+          "id": "dsa_b2",
+          "title": "Arrays & Strings",
+          "type": "interactive",
+          "duration_mins": 45,
+          "url": "https://example.com/dsa-arrays",
+          "description": "Common operations and patterns on arrays and strings.",
+          "tags": ["arrays", "strings", "patterns"]
+        },
+        {
+          "id": "dsa_b3",
+          "title": "Sorting & Searching Basics",
+          "type": "reading",
+          "duration_mins": 35,
+          "url": "https://example.com/dsa-sort",
+          "description": "Bubble, selection, insertion sort; linear & binary search.",
+          "tags": ["sorting", "searching", "algorithms"]
+        }
+      ],
+      "intermediate": [
+        {
+          "id": "dsa_i1",
+          "title": "Linked Lists, Stacks & Queues",
+          "type": "interactive",
+          "duration_mins": 60,
+          "url": "https://example.com/dsa-linked",
+          "description": "Implement and use fundamental data structures.",
+          "tags": ["linked list", "stack", "queue"]
+        },
+        {
+          "id": "dsa_i2",
+          "title": "Trees & Binary Search Trees",
+          "type": "video",
+          "duration_mins": 70,
+          "url": "https://example.com/dsa-trees",
+          "description": "Traversals, BST operations, and balanced trees.",
+          "tags": ["trees", "BST", "traversal"]
+        },
+        {
+          "id": "dsa_i3",
+          "title": "Recursion & Backtracking",
+          "type": "interactive",
+          "duration_mins": 65,
+          "url": "https://example.com/dsa-recursion",
+          "description": "Solve complex problems with recursive thinking.",
+          "tags": ["recursion", "backtracking", "divide-conquer"]
+        }
+      ],
+      "advanced": [
+        {
+          "id": "dsa_a1",
+          "title": "Dynamic Programming Mastery",
+          "type": "video",
+          "duration_mins": 90,
+          "url": "https://example.com/dsa-dp",
+          "description": "Memoization, tabulation, and classic DP problems.",
+          "tags": ["DP", "memoization", "optimization"]
+        },
+        {
+          "id": "dsa_a2",
+          "title": "Graph Algorithms",
+          "type": "interactive",
+          "duration_mins": 85,
+          "url": "https://example.com/dsa-graphs",
+          "description": "BFS, DFS, Dijkstra, and minimum spanning trees.",
+          "tags": ["graphs", "BFS", "DFS", "Dijkstra"]
+        },
+        {
+          "id": "dsa_a3",
+          "title": "Competitive Programming Sprint",
+          "type": "project",
+          "duration_mins": 120,
+          "url": "https://example.com/dsa-cp",
+          "description": "Solve 20 competitive programming problems end-to-end.",
+          "tags": ["competitive", "problem-solving", "practice"]
+        }
+      ]
+    }
+  }
+}
